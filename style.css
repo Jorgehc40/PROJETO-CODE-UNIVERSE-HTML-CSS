@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	width: 100%;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	background: #591e7d;
+	color: #fff;
+	padding: 15px;
+	height: 50px;
+}
+
+header nav ul {
+	margin: 0;
+	margin-top: -5px;
+	padding: 0;
+	float: right;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header nav ul li {
+	margin: 0;
+	display: inline;
+	padding: 8px;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.5s;
+	font-size: 0.9em;
+}
+
+header nav ul li:hover {
+	background: #8d3bbf;
+}
+
+main section.banner{
+	width: 100%;
+	height: 596px;
+	background-image: url(../img/banner1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+main section.banner h1{
+	text-align: center;
+	margin-top: 200px;
+	color: #fff;
+	text-shadow: 2px 2px 5px #333;
+}
+
+main section.banner h2{
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+	text-shadow: 2px 2px 5px #333;
+}
+
+main section.servicos h1 {
+	color: #591e7d;
+	text-align: center;
+	margin-top: 20px;
+}
+
+main section.servicos .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+main section.servicos .container .imagem {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 25vh;
+	transition: 2s;
+}
+
+main section.servicos .container .imagem:hover{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+main section.servicos .container #imagem1 {
+	background-image: url(../img/1.jpg);
+}
+
+main section.servicos .container #imagem2 {
+	background-image: url(../img/2.jpg);
+}
+
+main section.servicos .container #imagem3 {
+	background-image: url(../img/3.jpg);
+}
+
+main section.servicos .container h2 {
+	width: 100%;
+	text-align: center;
+}
+
+main section.quem-somos{
+	height: 350px;
+	background-image: url(../img/banner2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+main section.quem-somos h1 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+main section.quem-somos p {
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+}
